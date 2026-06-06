@@ -88,8 +88,7 @@ textarea {
 }
 
 .hero-section {
-  padding: 4rem 2rem;
-  min-height: calc(100vh - 82px);
+  padding: 4rem 2rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +96,32 @@ textarea {
 }
 
 .hero-copy {
-  max-width: 620px;
+  max-width: 720px;
+}
+
+.hero-copy-header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-copy-text {
+  flex: 1;
+}
+
+.hero-profile {
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.hero-profile img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
 }
 
 .hero-copy img {
@@ -217,5 +241,16 @@ textarea {
 
   .hero-section {
     padding: 3rem 1.5rem;
+  }
+
+  .hero-copy-header {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .hero-profile {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 1.5rem;
   }
 }

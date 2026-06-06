@@ -3,13 +3,13 @@ function About() {
     <section id="about" className="section-card">
       <div className="section-header">
         <span className="section-label">About</span>
-        <h2>Omkring mig</h2>
+        <h2>About Me</h2>
       </div>
       <p>
-       Som civilingeniør i spiludvikling og læringsteknologi har jeg en passion for at skabe innovative digitale oplevelser, der kombinerer teknologi og læring. Min uddannelse har givet mig en solid teknisk baggrund inden for spiludvikling, VR, AR og softwareudvikling, 
-       samtidig med at jeg har udviklet en dyb forståelse for læringsteori og pædagogiske principper. 
-       Jeg brænder for at bruge min viden og færdigheder til at designe og udvikle engagerende læringsteknologier, der kan gøre en positiv forskel i folks liv. Jeg har tidligere undervist børn i programmering af robotter på teknologiskolen. 
-       Jeg er nysgerrig, formidlingsstærk og arbejder målrettet med både faglighed og samarbejde. . I min fritid dyrker jeg volleyball og løb, hvor fællesskab og udvikling er i fokus.
+       As a cand.polyt in game development and learning technology, I have a passion for creating innovative digital experiences that combine technology and learning. My education has given me a solid technical foundation in game development, VR, AR and software development, 
+       while also developing a deep understanding of learning theory and pedagogical principles. 
+       I am passionate about using my knowledge and skills to design and develop engaging learning technologies that can make a positive difference in people's lives. I have previously taught children programming robots at the technical school. 
+       I am curious, communication-skilled and work goal-oriented with both expertise and collaboration. In my free time, I practice volleyball and running, where community and development are in focus.
       </p>
     </section>
   );

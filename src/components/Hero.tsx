@@ -5,7 +5,7 @@ function Hero() {
         <p className="eyebrow">Cand.Polyt (Civilingeniør)</p>
         <h1>Jonas Frellesen Petersen</h1>
         <h3>Velkommen til min portfølje</h3>
-        <img src={new URL('./Profilbillede.png', import.meta.url).href} alt="Profile Image" width="50%" height="50%" />
+        <img src={`${(import.meta as any).env.BASE_URL}Profilbillede.png`} alt="Profile Image" />
       </div>
     </section>
   );

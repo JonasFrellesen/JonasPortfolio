@@ -2,6 +2,7 @@ const navItems = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
+  { href: '#voluntary-work', label: 'Voluntary Work' },
   { href: '#contact', label: 'Contact' },
 ];
 

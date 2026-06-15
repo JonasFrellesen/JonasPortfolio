@@ -45,7 +45,10 @@ const navItems: NavItem[] = [
 function Navbar() {
   return (
     <header className="navbar">
-      <div className="navbar-brand">My Portfolio</div>
+      <div className="navbar-brand">My Portfolio
+        <img src={`${(import.meta as any).env.BASE_URL}JFP_LOGO.png`} alt="Logo" className="navbar-logo" />
+      </div>
+      
       <nav aria-label="Primary">
         <ul className="navbar-nav">
           {navItems.map((item) => (

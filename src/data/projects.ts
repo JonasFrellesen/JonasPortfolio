@@ -82,5 +82,26 @@ export const projects = [
     description: 'ZooGoneWild is a 2D top-down multiplayer real-time versus game where two players compete against each other by catching animals and scoring more points before time runs out. The game focuses on interaction, competition, and making strategic choices.',
     tech: ['Unity', 'C#', 'Game Development', 'Multiplayer'],
     url: 'https://www.youtube.com/watch?v=hy3cGilTp_w',
+  },
+  {
+    semester: 'Eighth semester',
+    title: 'Dynamic Greenhouse',
+    description: 'In this project, I developed an automated greenhouse system focused on improving plant growth through robotics, programming, and IoT technology. The system was designed around an Arduino platform and uses sensors and actuators to monitor and control the environment of a tomato plant.',
+    tech: ['Arduino', 'Sensors', 'Actuators', 'IoT', 'Automation'],
+    url: 'https://www.youtube.com/watch?v=d_VAY2dS0S8',
+  },
+  {
+    semester: 'Eighth semester',
+    title: 'Realtime Webapplication for monitoring stockmarket data',
+    description: 'Real-time web application for monitoring stock market data, build with react. the application allows users to track stock prices and view historical data. It utilizes WebSockets to provide live updates and a responsive user interface for an optimal user experience.',
+    tech: ['php', 'mongodb', 'javascript', 'react'],
+    url: 'https://www.youtube.com/watch?v=TNTIClaioNg',
+  }, 
+  {
+    semester: 'Ninth semester',
+    title: 'Educational Technology Project: Learning Design & Multimedia Development',
+    description: 'Designed, developed, and evaluated a video-based learning tutorial that teaches beginner users how to use core Autodesk Fusion CAD tools by modeling a 2×4 LEGO brick. The project combined instructional design principles with multimedia learning theory to create an engaging and accessible learning experience.',
+    tech: ['Instructional Design', 'Multimedia Learning', 'CAD Software'],
+    url: 'https://www.youtube.com/watch?v=z9JPdn8QbUQ',
   }
 ];

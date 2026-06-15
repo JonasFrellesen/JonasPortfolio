@@ -55,6 +55,17 @@ textarea {
 
 .navbar-brand {
   font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-logo {
+  width: auto;
+  height: 50px;
+  max-width: 160px;
+  display: block;
+  object-fit: contain;
 }
 
 .navbar ul {

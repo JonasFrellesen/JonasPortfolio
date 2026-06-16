@@ -39,6 +39,7 @@ const navItems: NavItem[] = [
     })),
   },
   { href: '#voluntary-work', label: 'Voluntary Work' },
+  { href: '#exam-transcript', label: 'Exam Transcript' },
   { href: '#contact', label: 'Contact' },
 ];
 

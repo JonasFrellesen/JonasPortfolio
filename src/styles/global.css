@@ -458,3 +458,73 @@ textarea {
     margin-top: 1.5rem;
   }
 }
+
+/* PDF modal styles */
+.pdf-thumbnail {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(2,6,23,0.08);
+  display: inline-block;
+}
+
+.pdf-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.pdf-modal-content {
+  width: min(1000px, 98%);
+  height: 90vh;
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.pdf-modal-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lang-button {
+  padding: 0.45rem 0.75rem;
+  border-radius: 0.5rem;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+}
+
+.lang-button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.pdf-modal-iframe {
+  flex: 1;
+  border: 0;
+  width: 100%;
+}
+
+.pdf-modal .button {
+  padding: 0.5rem 0.85rem;
+}
